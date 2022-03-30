@@ -6,7 +6,7 @@ __all__ = ['fastai_cfg', 'fastai_path', 'URLs', 'untar_data']
 from ..torch_basics import *
 from fastdownload import FastDownload
 from functools import lru_cache
-import fastai.data
+import fastai2.data
 
 # Cell
 @lru_cache(maxsize=None)
